@@ -3,10 +3,27 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .container{
-    padding-right: 2rem;
-    padding-left: 1rem;
+    padding: 0rem 1rem;
 }
 .container-centre{
     max-width: 600px;
     margin: auto
+}
+hr{
+    margin: 1rem 0rem;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: orange;
+    border-radius: 0.5rem;
+    color: white;
+    border: 1px solid;
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
