@@ -5,6 +5,7 @@ body{
 :root{
     --primary-color: orange;
     --light-orange: #fb923c;
+    --off-white: #fed7aa;
 }
 .container{
     padding: 0rem 1rem;
@@ -63,5 +64,18 @@ margin: auto;
     color: var(--light-orange)
 }
 .hero .hero-heading .hero-line{
+    color: blue;
+}
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
+}
+.link2{
+    text-decoration: none;
     color: blue;
 }
