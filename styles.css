@@ -49,6 +49,7 @@ hr{
 .navigation .link1{
     color: white;
     text-decoration: none;
+    padding: 0rem 1rem;
 }
 .hero{
     padding: 2rem;
@@ -77,5 +78,18 @@ margin: auto;
 }
 .link2{
     text-decoration: none;
-    color: blue;
+    color: antiquewhite;
+    padding: 0rem 2rem;
+}
+.footer{
+    background-color: var(--light-orange);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: antiquewhite;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
